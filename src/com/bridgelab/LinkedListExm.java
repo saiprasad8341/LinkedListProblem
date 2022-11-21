@@ -1,6 +1,6 @@
 package com.bridgelab;
 
-//UC5 - Ability to delete the first element in the of sequence 56->30->70
+//UC6 - Ability to delete the last element in the of sequence 56->30->70
 
 import java.util.LinkedList;
 
@@ -12,7 +12,7 @@ public class LinkedListExm {
         list.add("30");
         list.add("70");
         System.out.println("List ::: "+list);
-        list.removeFirst();
+        list.removeLast();
         System.out.println("Updated list ::: "+list);
     }
 }
