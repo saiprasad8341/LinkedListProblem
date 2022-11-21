@@ -1,6 +1,6 @@
 package com.bridgelab;
 
-//UC4 - Ability to insert 30 between 56 and 70
+//UC5 - Ability to delete the first element in the of sequence 56->30->70
 
 import java.util.LinkedList;
 
@@ -11,5 +11,8 @@ public class LinkedListExm {
         list.add("56");
         list.add("30");
         list.add("70");
+        System.out.println("List ::: "+list);
+        list.removeFirst();
+        System.out.println("Updated list ::: "+list);
     }
 }
