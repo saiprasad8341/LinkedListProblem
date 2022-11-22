@@ -1,6 +1,6 @@
 package com.bridgelab;
 
-//UC6 - Ability to delete the last element in the of sequence 56->30->70
+//UC7 - Ability to search LinkedList to find Node with value 30
 
 import java.util.LinkedList;
 
@@ -14,5 +14,6 @@ public class LinkedListExm {
         System.out.println("List ::: "+list);
         list.removeLast();
         System.out.println("Updated list ::: "+list);
+        System.out.println("Index of 30 is ::: "+ list.indexOf("30"));
     }
 }
