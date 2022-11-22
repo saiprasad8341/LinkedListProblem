@@ -1,6 +1,6 @@
 package com.bridgelab;
 
-//UC7 - Ability to search LinkedList to find Node with value 30
+//UC8 - Ability to insert 40 after 30 to the Linked List sequence of 56->30->70
 
 import java.util.LinkedList;
 
@@ -12,8 +12,7 @@ public class LinkedListExm {
         list.add("30");
         list.add("70");
         System.out.println("List ::: "+list);
-        list.removeLast();
+        list.add(list.indexOf("30"), "40");
         System.out.println("Updated list ::: "+list);
-        System.out.println("Index of 30 is ::: "+ list.indexOf("30"));
     }
 }
